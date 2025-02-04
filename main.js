@@ -51,6 +51,7 @@ document.querySelector('.check').addEventListener('click', function(){
     }
 })
 
+//When Reseting The Game
 document.querySelector('.again').addEventListener('click', function(){
     score = 20;
     document.querySelector('.score').textContent = score;
